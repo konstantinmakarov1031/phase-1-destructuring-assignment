@@ -40,8 +40,11 @@ console.log(red, orange, yellow, green, indigo, violet);
 const [r, o, y, g, b, , v] = colors; 
 console.log(r, o, y, g, b, v);
 
-const [, , , , , indg, ,] = colors;
-console.log(indg); 
+// const [, , , , , indg, ,] = colors;
+// console.log(indg); 
+
+const indg = colors[5] 
+console.log(indg)
 
 const {muppetName, color, song, job, partner} = muppet; 
 muppet; 
